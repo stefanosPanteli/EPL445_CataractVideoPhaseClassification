@@ -49,20 +49,19 @@
 - `hidden_size`: 128
 - `num_layers`: 3
 - `meta_hidden`: 12
-<br>
--  `classifier`: Sequential model in -> class*2 -> class
+- `classifier`: Sequential model in -> class*2 -> class
 
 ## Stats
 ### Epoch 7
 | **Model** | **Accuracy** | **Precision** | **Recall** | **F1** | **Weighted F1** |
 | --- | --- | --- | --- | --- | --- |
-| **CNN_RNN_balanced** | 0.7760 | 0.7823 | 0. | 0.7244 | 0.7722 |
-| **CNN_RNN_balanced_win3** | 0.7793 | 0.7850 | 0. | 0.7287 | 0.7753 |
-| **CNN_RNN_balanced_win5** | 0.7829 | 0.7890 | 0. | 0.7325 | 0.7793 |
-| **CNN_RNN_balanced_win7** | 0.7875 | 0.7936 | 0. | 0.7395 | 0.7841 |
-| **CNN_RNN_balanced_win15** | 0.8043 | 0.8112 | 0. | 0.7586 | 0.8008 |
-| **CNN_RNN_balanced_win15_15** | 0.8050 | 0.8121 | 0. | 0.7590 | 0.8015 |
-| **CNN_RNN_balanced_win31** | **0.8154** | 0.8285 | 0. | ***0.7653*** | 0.8112 |
+| **CNN_RNN_balanced** | 0.7760 | 0.7823 | 0.0.7760 | 0.7244 | 0.7722 |
+| **CNN_RNN_balanced_win3** | 0.7793 | 0.7850 | 0.0.7793 | 0.7287 | 0.7753 |
+| **CNN_RNN_balanced_win5** | 0.7829 | 0.7890 | 0.0.7829 | 0.7325 | 0.7793 |
+| **CNN_RNN_balanced_win7** | 0.7875 | 0.7936 | 0.0.7875 | 0.7395 | 0.7841 |
+| **CNN_RNN_balanced_win15** | 0.8043 | 0.8112 | 0.0.8043 | 0.7586 | 0.8008 |
+| **CNN_RNN_balanced_win15_15** | 0.8050 | 0.8121 | 0.0.8050 | 0.7590 | 0.8015 |
+| **CNN_RNN_balanced_win31** | **0.8154** | 0.8285 | 0.0.8154 | ***0.7653*** | 0.8112 |
 
 ### Epoch 8
 | **Model** | **Accuracy** | **Precision** | **Recall** | **F1** | **Weighted F1** |
@@ -93,7 +92,6 @@
 - `hidden_size`: 128
 - `num_layers`: 1
 - `meta_hidden`: 8
-<br>
 - `frame_norm nn`: One layer only
 
 ## Stats
@@ -148,10 +146,10 @@ Epoch 7 with window of 31 frames.
 
 | **Model** | **Accuracy** | **Precision** | **Recall** | **F1** | **Weighted F1** |
 | --- | --- | --- | --- | --- | --- |
-| **CNN_RNN_balanced** | 0.7760 | 0.7823 | 0. | 0.7244 | 0.7722 |
-| **CNN_RNN_balanced_win3** | 0.7793 | 0.7850 | 0. | 0.7287 | 0.7753 |
-| **CNN_RNN_balanced_win5** | 0.7829 | 0.7890 | 0. | 0.7325 | 0.7793 |
-| **CNN_RNN_balanced_win7** | 0.7875 | 0.7936 | 0. | 0.7395 | 0.7841 |
-| **CNN_RNN_balanced_win15** | 0.8043 | 0.8112 | 0. | 0.7586 | 0.8008 |
-| **CNN_RNN_balanced_win15_15** | 0.8050 | 0.8121 | 0. | 0.7590 | 0.8015 |
-| **CNN_RNN_balanced_win31** | **0.8154** | 0.8285 | 0. | ***0.7653*** | 0.8112 |
+| **CNN_RNN_balanced** | 0.7760 | 0.7823 | 0.0.7760 | 0.7244 | 0.7722 |
+| **CNN_RNN_balanced_win3** | 0.7793 | 0.7850 | 0.0.7793 | 0.7287 | 0.7753 |
+| **CNN_RNN_balanced_win5** | 0.7829 | 0.7890 | 0.0.7829 | 0.7325 | 0.7793 |
+| **CNN_RNN_balanced_win7** | 0.7875 | 0.7936 | 0.0.7875 | 0.7395 | 0.7841 |
+| **CNN_RNN_balanced_win15** | 0.8043 | 0.8112 | 0.0.8043 | 0.7586 | 0.8008 |
+| **CNN_RNN_balanced_win15_15** | 0.8050 | 0.8121 | 0.0.8050 | 0.7590 | 0.8015 |
+| **CNN_RNN_balanced_win31** | **0.8154** | 0.8285 | 0.0.8154 | ***0.7653*** | 0.8112 |

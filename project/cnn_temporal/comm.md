@@ -39,69 +39,35 @@
 
 # 2
 ## Dataset
+- `window_size`: 3
 
 ## Architecture
+- `pool_type`: mean
+- `meta_hidden`: 8
+- `classifier`: Sequential model in -> class*2 -> class
 
 ## Stats
-### Epoch X
+### Epoch 11
 | **Model** | **Accuracy** | **Precision** | **Recall** | **F1** | **Weighted F1** |
 | --- | --- | --- | --- | --- | --- |
-| **CNN_temporal_balanced** | 
-| **CNN_temporal_balanced_win3** | 
-| **CNN_temporal_balanced_win5** | 
-| **CNN_temporal_balanced_win7** | 
-| **CNN_temporal_balanced_win15** | 
-| **CNN_temporal_balanced_win15_15** | 
-| **CNN_temporal_balanced_win31** | 
+| **CNN_temporal_balanced** | 0.7650 | 0.7974 | 0.7650 | 0.6793 | 0.7664 |
+| **CNN_temporal_balanced_win3** | 0.7696 | 0.8024 | 0.7696 | 0.6847 | 0.7708 |
+| **CNN_temporal_balanced_win5** | 0.7731 | 0.8065 | 0.7731 | 0.6899 | 0.7743 |
+| **CNN_temporal_balanced_win7** | 0.7780 | 0.8139 | 0.7780 | 0.6957 | 0.7795 |
+| **CNN_temporal_balanced_win15** | 0.7912 | 0.8324 | 0.7912 | 0.7115 | 0.7932 |
+| **CNN_temporal_balanced_win15_15** | 0.7915 | 0.8349 | 0.7915 | 0.7117 | 0.7936 |
+| **CNN_temporal_balanced_win31** | **0.7972** | 0.8425 | 0.7972 | **0.7169** | 0.7997 |
 
-### Epoch Y
+### Epoch 12
 | **Model** | **Accuracy** | **Precision** | **Recall** | **F1** | **Weighted F1** |
 | --- | --- | --- | --- | --- | --- |
-| **CNN_temporal_balanced** | 
-| **CNN_temporal_balanced_win3** | 
-| **CNN_temporal_balanced_win5** | 
-| **CNN_temporal_balanced_win7** | 
-| **CNN_temporal_balanced_win15** | 
-| **CNN_temporal_balanced_win15_15** | 
-| **CNN_temporal_balanced_win31** | 
-
----
----
-
-<br><br>
-
----
----
-
-
-# 3
-## Dataset
-
-## Architecture
-
-## Stats
-### Epoch X
-| **Model** | **Accuracy** | **Precision** | **Recall** | **F1** | **Weighted F1** |
-| --- | --- | --- | --- | --- | --- |
-| **CNN_temporal_balanced** | 
-| **CNN_temporal_balanced_win3** | 
-| **CNN_temporal_balanced_win5** | 
-| **CNN_temporal_balanced_win7** | 
-| **CNN_temporal_balanced_win15** | 
-| **CNN_temporal_balanced_win15_15** | 
-| **CNN_temporal_balanced_win31** | 
-
-### Epoch Y
-| **Model** | **Accuracy** | **Precision** | **Recall** | **F1** | **Weighted F1** |
-| --- | --- | --- | --- | --- | --- |
-| **CNN_temporal_balanced** | 
-| **CNN_temporal_balanced_win3** | 
-| **CNN_temporal_balanced_win5** | 
-| **CNN_temporal_balanced_win7** | 
-| **CNN_temporal_balanced_win15** | 
-| **CNN_temporal_balanced_win15_15** | 
-| **CNN_temporal_balanced_win31** | 
-
+| **CNN_temporal_balanced** | 0.7757 | 0.7911 | 0.7757 | 0.6833 | 0.7674 |
+| **CNN_temporal_balanced_win3** | 0.7787 | 0.7939 | 0.7787 | 0.6862 | 0.7700 |
+| **CNN_temporal_balanced_win5** | 0.7844 | 0.8001 | 0.7844 | 0.6923 | 0.7752 |
+| **CNN_temporal_balanced_win7** | 0.7885 | 0.8049 | 0.7885 | 0.6951 | 0.7787 |
+| **CNN_temporal_balanced_win15** | 0.8023 | 0.8265 | 0.8023 | 0.7146 | 0.7938 |
+| **CNN_temporal_balanced_win15_15** | 0.8039 | 0.8285 | 0.8039 | 0.7152 | 0.7949 |
+| **CNN_temporal_balanced_win31** | **0.8106** | 0.8386 | 0.8106 | ***0.7251*** | 0.8019 |
 
 ---
 ---
@@ -131,10 +97,10 @@ Epoch 7 with window of 31 frames.
 
 | **Model** | **Accuracy** | **Precision** | **Recall** | **F1** | **Weighted F1** |
 | --- | --- | --- | --- | --- | --- |
-| **CNN_RNN_balanced** | 0.7760 | 0.7823 | 0. | 0.7244 | 0.7722 |
-| **CNN_RNN_balanced_win3** | 0.7793 | 0.7850 | 0. | 0.7287 | 0.7753 |
-| **CNN_RNN_balanced_win5** | 0.7829 | 0.7890 | 0. | 0.7325 | 0.7793 |
-| **CNN_RNN_balanced_win7** | 0.7875 | 0.7936 | 0. | 0.7395 | 0.7841 |
-| **CNN_RNN_balanced_win15** | 0.8043 | 0.8112 | 0. | 0.7586 | 0.8008 |
-| **CNN_RNN_balanced_win15_15** | 0.8050 | 0.8121 | 0. | 0.7590 | 0.8015 |
-| **CNN_RNN_balanced_win31** | **0.8154** | 0.8285 | 0. | ***0.7653*** | 0.8112 |
+| **CNN_temporal_balanced** | 0.7550 | 0.7777 | 0.7550 | 0.6793 | 0.7547 |
+| **CNN_temporal_balanced_win3** | 0.7591 | 0.7813 | 0.7591 | 0.6836 | 0.7584 |
+| **CNN_temporal_balanced_win5** | 0.7631 | 0.7839 | 0.7631 | 0.6872 | 0.7618 |
+| **CNN_temporal_balanced_win7** | 0.7708 | 0.7896 | 0.7708 | 0.6939 | 0.7684 |
+| **CNN_temporal_balanced_win15** | 0.7872 | 0.8063 | 0.7872 | 0.7119 | 0.7835 |
+| **CNN_temporal_balanced_win15_15** | 0.7895 | 0.8091 | 0.7895 | 0.7135 | 0.7854 |
+| **CNN_temporal_balanced_win31** | **0.8044** | 0.8237 | 0.8044 | ***0.7345*** | 0.7996 |
