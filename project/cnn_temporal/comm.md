@@ -77,6 +77,36 @@
 ---
 ---
 
+# 3
+## Dataset
+- `window_size`: 3
+
+## Architecture
+- `pool_type`: mean
+- `meta_hidden`: 8
+- `cnn`: **Frozen**
+- `classifier`: Sequential model in -> 256 -> class * 4 -> class
+
+## Stats
+### Epoch 11
+| **Model** | **Accuracy** | **Precision** | **Recall** | **F1** | **Weighted F1** |
+| --- | --- | --- | --- | --- | --- |
+| **CNN_temporal_balanced** | 0.4593 | 0.6645 | 0.4593 | 0.4561 | 0.4744 |
+| **CNN_temporal_balanced_win3** | 0.4636 | 0.6691 | 0.4636 | 0.4607 | 0.4786 |
+| **CNN_temporal_balanced_win5** | 0.4657 | 0.6730 | 0.4657 | 0.4628 | 0.4801 |
+| **CNN_temporal_balanced_win7** | 0.4671 | 0.6757 | 0.4671 | 0.4630 | 0.4807 |
+| **CNN_temporal_balanced_win15** | 0.4748 | 0.6890 | 0.4748 | 0.4730 | 0.4876 |
+| **CNN_temporal_balanced_win15_15** | 0.4790 | 0.6943 | 0.4790 | 0.4778 | 0.4924 |
+| **CNN_temporal_balanced_win31** | **0.4817** | 0.6969 | 0.4817 | ***0.4812*** | 0.4932 |
+
+---
+---
+
+<br><br>
+
+---
+---
+
 # Overall Best
 Second model with more complex prediction head, and shorter clips.
 Epoch 7 with window of 31 frames.
