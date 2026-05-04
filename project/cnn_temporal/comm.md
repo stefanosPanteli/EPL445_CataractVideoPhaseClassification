@@ -108,8 +108,7 @@
 ---
 
 # Overall Best
-Second model with more complex prediction head, and shorter clips.
-Epoch 7 with window of 31 frames.
+The best model overall was the simplest, which was used for the previous experiments.
 
 #### Case 18
 ![alt text](image-1.png)
