@@ -1,2 +1,3 @@
 project/models*/3d_cnn/*
 project/models*/3d_cnn.zip
+project/3d_balanced/*/cnn_3d*.pth
